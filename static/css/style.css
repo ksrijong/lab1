@@ -1,0 +1,64 @@
+#home {
+  padding-top:50px;height:600px;color: #fff; background-color: #1E88E5;
+  text-align: center;
+}
+
+#work {
+  padding-top:50px;height:1500px;color: #000; background-color: #fff;
+  text-align: ;
+}
+
+#about {
+  padding-top:50px;height:700px;color: #fff; background-color: #00bcd4;
+  text-align: center;
+}
+
+.vertical-center {
+  text-align: center;
+}
+
+.jumbotron {
+  /* black outline for white text */
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-image: url("file://C:Users/Kirk/Desktop/COGS 187A/Portfolio/img/jumbotron-bg2.jpg");
+  /*background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/03/zion-national-park-wallpaper.jpg");*/
+}
+
+#work h1 {
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  max-height: 500px;
+  width: auto;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-caption {
+  color: #fff;
+  top: 60%;
+  position: relative;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  color: #2c3e50;
+}
+
+.carousel-indicators li {
+  margin-bottom: 35px;
+  background-color: #000;
+}
+
+.carousel-indicators .active {
+  margin-bottom: 35px;
+  background-color: #aaa;
+}
